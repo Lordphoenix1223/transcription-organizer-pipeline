@@ -2,6 +2,6 @@ watchdog>=4.0.0
 python-dotenv>=1.0.1
 tenacity>=9.0.0
 grpcio>=1.64.0
-protobuf>=5.27.0
+protobuf>=7.35.1
 nvidia-riva-client>=2.26.0
 notion-client>=2.3.0
