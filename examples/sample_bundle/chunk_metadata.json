@@ -1,0 +1,13 @@
+{
+  "chunk_count": 1,
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "end_time_seconds": 96.0,
+      "start_time_seconds": 0.0,
+      "status": "success",
+      "transcript_length": 434
+    }
+  ],
+  "original_audio_duration_seconds": 96.0
+}

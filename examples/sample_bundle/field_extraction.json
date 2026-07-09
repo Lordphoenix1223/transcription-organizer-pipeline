@@ -1,0 +1,64 @@
+{
+  "fields": {
+    "Current Tools": {
+      "confidence": 0.8,
+      "evidence": [
+        "I pay $12/month for CapCut Pro and $20/month for Descript."
+      ],
+      "method": "qa_pair",
+      "published_to_notion": true,
+      "source_question": "What tools do you currently pay for each month?",
+      "value": "CapCut Pro\nDescript"
+    },
+    "Did They Understand The Tool Quickly?": {
+      "confidence": 0.7,
+      "evidence": [
+        "Not really. The first setup step was confusing."
+      ],
+      "method": "signals",
+      "published_to_notion": true,
+      "source_question": null,
+      "value": "Confused"
+    },
+    "Expected Price": {
+      "confidence": 0.8,
+      "evidence": [
+        "Around $39/month."
+      ],
+      "method": "qa_pair",
+      "published_to_notion": true,
+      "source_question": "What would you pay if it saved you editing time?",
+      "value": "$39/month"
+    },
+    "Follow-Up Booked?": {
+      "confidence": 0.75,
+      "evidence": [
+        "Yes, let's do that."
+      ],
+      "method": "signals",
+      "published_to_notion": true,
+      "source_question": null,
+      "value": true
+    },
+    "Monthly Tool Spend": {
+      "confidence": 0.8,
+      "evidence": [
+        "I pay $12/month for CapCut Pro and $20/month for Descript."
+      ],
+      "method": "qa_pair",
+      "published_to_notion": true,
+      "source_question": "What tools do you currently pay for each month?",
+      "value": "$12/month\n$20/month"
+    }
+  },
+  "qa_pairs": [
+    {
+      "answer": "I pay $12/month for CapCut Pro and $20/month for Descript.",
+      "confidence": 0.98,
+      "question": "What tools do you currently pay for each month?"
+    }
+  ],
+  "recording_date": "2026-07-09T00:00:00+00:00",
+  "title": "sample_customer_interview",
+  "warnings": []
+}

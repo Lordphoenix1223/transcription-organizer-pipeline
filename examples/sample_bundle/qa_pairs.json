@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What tools do you currently pay for each month?",
+    "answer": "I pay $12/month for CapCut Pro and $20/month for Descript.",
+    "confidence": 0.98
+  },
+  {
+    "question": "Did you understand the tool quickly?",
+    "answer": "Not really. The first setup step was confusing.",
+    "confidence": 0.97
+  },
+  {
+    "question": "What would you pay if it saved you editing time?",
+    "answer": "Around $39/month.",
+    "confidence": 0.96
+  },
+  {
+    "question": "Should we follow up next week?",
+    "answer": "Yes, let's do that.",
+    "confidence": 0.96
+  }
+]

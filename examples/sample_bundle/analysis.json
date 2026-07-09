@@ -1,0 +1,31 @@
+{
+  "action_items": [
+    "Tighten onboarding flow",
+    "Follow up next week"
+  ],
+  "biggest_pain_points": [
+    "Setup felt confusing on the first pass"
+  ],
+  "exact_quote_candidates": [
+    "Around $39/month."
+  ],
+  "feature_requests": [],
+  "negative_confusing_feedback": [
+    "The first setup step was confusing"
+  ],
+  "pmf_score": 6,
+  "positive_feedback": [
+    "The participant saw enough value to discuss paying for the tool"
+  ],
+  "pricing_feedback": [
+    "Willing to pay around $39/month if time savings are real"
+  ],
+  "pricing_mentions": [
+    "$12/month",
+    "$20/month",
+    "$39/month"
+  ],
+  "retention_likelihood": 6,
+  "suggested_price": "$39/month",
+  "would_pay": "Yes"
+}
