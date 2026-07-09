@@ -1,5 +1,5 @@
 watchdog>=4.0.0
-python-dotenv>=1.0.1
+python-dotenv>=1.2.2
 tenacity>=9.0.0
 grpcio>=1.64.0
 protobuf>=5.27.0
