@@ -23,13 +23,13 @@ jobs:
           python -m pip install -r requirements.txt
 
       - name: Run no-paid-LLM check
-        run: ./scripts/test_no_paid_ai.sh
+        run: bash scripts/test_no_paid_ai.sh
 
       - name: Run field extraction checks
-        run: ./scripts/test_field_extraction.sh
+        run: bash scripts/test_field_extraction.sh
 
       - name: Run Notion property formatting checks
-        run: ./scripts/test_notion_property_formatting.sh
+        run: bash scripts/test_notion_property_formatting.sh
 
       - name: Verify sample bundle files exist
         run: |
@@ -48,3 +48,15 @@ jobs:
           if missing:
               raise SystemExit("\n".join(missing))
           PY
+
+  static-sanity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
+
+      - name: Check shell syntax
+        run: bash -n scripts/*.sh
+
+      - name: Compile Python modules
+        run: python -m compileall -q transcription_service
