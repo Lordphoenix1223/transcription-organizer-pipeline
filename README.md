@@ -60,6 +60,18 @@ flowchart LR
     H --> J["Optional Notion publish"]
 ```
 
+## See It Work
+
+The repository includes a safe, fake sample bundle so the transformation is inspectable without credentials or real recordings:
+
+```bash
+./scripts/test_no_paid_ai.sh
+./scripts/test_field_extraction.sh
+./scripts/test_notion_property_formatting.sh
+```
+
+Then open the generated files in `tests/output/` or compare them with the committed [sample bundle](./examples/sample_bundle/). The tests keep this local replay path separate from the optional NVIDIA and Notion integrations.
+
 ## Quick Start
 
 ### 1. Install dependencies
